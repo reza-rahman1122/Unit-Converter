@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="Converter">
+    <menu>
+        <item android:id="@+id/id_temperature"
+              android:icon="@drawable/ic_temp"
+              android:title="Temperature">
+         </item>
+    <item
+        android:id="@+id/id_length"
+        android:icon="@drawable/ic_length"
+        android:title="Length">
+    </item>
+        <item
+            android:id="@+id/id_weight"
+            android:icon="@drawable/ic_weight"
+            android:title="Weight">
+        </item>
+    <item
+        android:id="@+id/id_speed"
+        android:icon="@drawable/ic_speed"
+        android:title="Speed">
+    </item>
+    <item
+        android:id="@+id/id_currency"
+        android:icon="@drawable/ic_currency"
+        android:title="Currency">
+    </item>
+    <item
+        android:id="@+id/id_calculator"
+        android:title="Calculator"
+        android:icon="@drawable/ic_calculator"
+
+        >
+    </item>
+
+
+        <item
+            android:id="@+id/id_covid_info"
+            android:title="Covid-19 Info"
+            android:icon="@drawable/ic_covid"
+
+            >
+        </item>
+    </menu>
+
+</item>
+    <item  android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/id_setting"
+                android:title="Setting"
+                android:icon="@drawable/ic_settings_26">
+            </item>
+
+            <item
+                android:id="@+id/id_feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_baseline_feedback_24">
+            </item>
+
+            <item
+                android:id="@+id/id_about"
+                android:title="About"
+                android:icon="@drawable/ic_about_26">
+            </item>
+        </menu>
+    </item>
+</menu>

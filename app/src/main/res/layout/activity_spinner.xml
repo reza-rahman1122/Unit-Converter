@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/id_spinner_textView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    style="@style/Widget.AppCompat.Light.DropDownItem.Spinner"
+    android:gravity="left"
+    android:singleLine="false"
+    android:ellipsize="end"
+    android:textStyle="bold"
+    >
+
+</TextView>
